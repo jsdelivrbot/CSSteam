@@ -1,0 +1,10 @@
+{
+  "name": "SychO-Steam",
+  "version": "2.0",
+  "description": "Steam Web Customization",
+  "main": "sycho-steam.user.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/js-cookie/js-cookie.git"
+  },
+}
