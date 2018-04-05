@@ -35,7 +35,7 @@
             ".imgWallItem:hover {border: 2px solid #97c0e3;background-size: auto;}"+
 ".imgWallItem {border: 2px solid black;}"+
 "div#HeaderUserBreadcrumbs {padding: 4px 2px;border-color: #1b2838;}"+
-"div#BG_top_sharedfiles {background: #101822;padding: 0 5px;}"+
+"div#BG_top_sharedfiles {background: #101822;padding: 0 5px; }"+
 "div#HeaderUserAvatar img {margin: 5px 5px 2px 0;border-radius: 2px;}"+
 "div#FilterContainer {padding: 3px 0 0;}"+
 ".sharedfiles_usercontrol_ctn.ellipsis input[type='radio'] {margin: 5px 2px 0;}"+
