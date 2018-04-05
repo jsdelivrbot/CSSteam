@@ -5,6 +5,6 @@
   "main": "sycho-steam.user.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/js-cookie/js-cookie.git"
+    "url": "git://github.com/SychO-Steam/SychO-Steam.git"
   },
 }
