@@ -20,7 +20,7 @@
 "b {    font-weight: 400;}"+
 ".profile_count_link a:hover .count_link_label {    text-decoration: none;    color: #4288cf;}"+
 ".profile_topfriends .friendBlock:hover {    background-color: #0000005c;    box-shadow: 0 0 4px black;    border-radius: 3px;}"+
-"#NamePopup {    font-family: 'Motiva Sans';}"+
+"#NamePopup {font-family: 'Motiva Sans';}"+
             ".badge_row {background: #0d141c;border: none;border-radius: 19px;margin-bottom: 9px;padding: 2px;}"+
 ".badge_row .badge_title_row {background: #0000002e;border-radius: 19px;padding: 4px 15px;}"+
 ".badge_row .badge_title_row .badge_title_stats {line-height: normal;}"+
