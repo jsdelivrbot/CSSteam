@@ -1,6 +1,6 @@
 {
   "name": "SychO-Steam",
-  "version": "2.0",
+  "version": "1.0",
   "description": "Steam Web Customization",
   "main": "sycho-steam.user.js",
   "repository": {
