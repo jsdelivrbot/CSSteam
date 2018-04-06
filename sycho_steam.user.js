@@ -15,24 +15,27 @@
 
 (function($) {
     $(document).ready(function(event) {
+        var name = window.location.pathname.match(/([^\/]*)\/*$/)[1];
         $("head").append("<link href='https://cdn.rawgit.com/SychO9/SychO-Steam/master/sycho_steam.css' rel='stylesheet' type='text/css'>");
         // Other Than Custom CSS.
         // Level Progress Edit.
-        var xp = $(".profile_xp_block_remaining").text().split(' ');
-        xp[0] = xp[0].replace(",", "");
-        console.log(xp);
-        var badges = xp[0]%100 > 0 ? Math.floor(xp[0]/100)+1 : Math.floor(xp[0]/100);
-        $(".profile_xp_block_remaining").attr("style", "text-align:left;");
-        $(".profile_xp_block_remaining").append("<span style='text-align:right;float:right;'>"+badges+" Badge"+(badges > 1 ? 's':'')+" to lvl "+xp[5]+"</span>");
-        var colorRGB = $(".friendPlayerLevel").css('border-color').replace("r", "").replace("g", "").replace("b", "").replace("(", "").replace(")", "").split(', ');
-        console.log(colorRGB);
-        var color = rgb2hex(colorRGB);
-        console.log(color);
-        var col = color.replace("#", ""), style = $(".profile_xp_block_remaining_bar_progress").attr("style");
-        if(LightenColor(col, 20) == "ffffff") {
-            $(".profile_xp_block_remaining_bar_progress").attr("style", style);
-        } else {
-            $(".profile_xp_block_remaining_bar_progress").attr("style", style+";background: "+color+";    background: linear-gradient(to right, #"+LightenColor(col, -20)+", #"+LightenColor(col, 20)+");");
+        if(name=="badges") {
+            var xp = $(".profile_xp_block_remaining").text().split(' ');
+            xp[0] = xp[0].replace(",", "");
+            console.log(xp);
+            var badges = xp[0]%100 > 0 ? Math.floor(xp[0]/100)+1 : Math.floor(xp[0]/100);
+            $(".profile_xp_block_remaining").attr("style", "text-align:left;");
+            $(".profile_xp_block_remaining").append("<span style='text-align:right;float:right;'>"+badges+" Badge"+(badges > 1 ? 's':'')+" to lvl "+xp[5]+"</span>");
+            var colorRGB = $(".friendPlayerLevel").css('border-color').replace("r", "").replace("g", "").replace("b", "").replace("(", "").replace(")", "").split(', ');
+            console.log(colorRGB);
+            var color = rgb2hex(colorRGB);
+            console.log(color);
+            var col = color.replace("#", ""), style = $(".profile_xp_block_remaining_bar_progress").attr("style");
+            if(LightenColor(col, 20) == "ffffff") {
+                $(".profile_xp_block_remaining_bar_progress").attr("style", style);
+            } else {
+                $(".profile_xp_block_remaining_bar_progress").attr("style", style+";background: "+color+";    background: linear-gradient(to right, #"+LightenColor(col, -20)+", #"+LightenColor(col, 20)+");");
+            }
         }
         // Function To Lighten The Color.
         function LightenColor(color, percent) {
