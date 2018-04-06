@@ -2,7 +2,7 @@
 // @name         SychO's Steam
 // @namespace    http://steamcommunity.com/id/SychO_Droid/
 // @updateURL    https://cdn.rawgit.com/SychO9/SychO-Steam/master/sycho_steam.user.js
-// @version      1.5.1
+// @version      1.6
 // @author       SychO
 // @match        http://steamcommunity.com/*
 // @match        https://steamcommunity.com/*
