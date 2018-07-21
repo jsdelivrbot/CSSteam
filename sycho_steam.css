@@ -23,3 +23,22 @@ b {    font-weight: 400;}
 .game_info_achievement.plus_more:hover, .showcase_achievement.plus_more:hover {    background: #ffffff3d;    color: white;}
 .recent_game {    background: #00000042;}
 .profile_recentgame_header.profile_leftcol_header {    background: #00000042;}
+.game_info_badge_border {
+    box-shadow: none;
+    background: #141414;
+    height: auto;
+} .game_info_achievements_badge .achievement_progress_bar_ctn {
+    border-radius: 1px;
+    box-shadow: none;
+    border: 1px solid #131413;
+    background: #131413;
+    padding: 0;
+    height: 12px;
+} .achievement_progress_bar_ctn .progress_bar {
+    background: #1453ba;
+    border-radius: 1px;
+    height: 12px;
+}
+.game_info_achievement:first-child {
+    margin-left: 2px !important;
+}
