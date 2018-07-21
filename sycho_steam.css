@@ -42,3 +42,28 @@ b {    font-weight: 400;}
 .game_info_achievement:first-child {
     margin-left: 2px !important;
 }
+div#headerSearch.friend_activity_header_search {
+    box-shadow: none;
+    border: 0;
+    height: 33px;
+} div#headerSearch.friend_activity_header_search #searchSubmitImg {
+    top: 7px;
+    right: 7px;
+} div#headerSearch.friend_activity_header_search #searchInputBoxNew {
+    left: 10px;
+} .profile_button_text {
+    padding: 9px 0 10px;
+} .friends_link_block:hover {
+    background-color: #16212e !important;
+} .profile_link_block_text_friends {
+    margin-top: -10px;
+} .webchat_own_avatar .friendslist_entry_content {
+    padding: 0;
+} .webchat_own_avatar .friendslist_entry_content a {
+    font-size: 14px;
+} .profile_options_divider {
+    border: none;
+    background: #1b2838;
+} .friends_launch_area .friendBlock:hover {
+    background: #131b26;
+}
