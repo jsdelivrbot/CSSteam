@@ -1,5 +1,5 @@
-# SychO's Steam
-Customized Steam Community Website.
+# CSSteam
+Enhanced Steam Look&Layout
 
 Requires [Tampermonkey](www.tampermonkey.net) Chrome Extension
 
