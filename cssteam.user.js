@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         SychO's Steam
+// @name         CSSteam
 // @namespace    http://steamcommunity.com/id/SychO_Droid/
-// @updateURL    https://rawgit.com/SychO9/SychO-Steam/master/sycho_steam.user.js
+// @updateURL    https://rawgit.com/SychO9/SychO-Steam/master/cssteam.user.js
 // @version      1.7
 // @author       SychO
 // @match        http://steamcommunity.com/*
