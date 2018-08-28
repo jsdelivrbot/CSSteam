@@ -16,7 +16,7 @@
 (function($) {
     $(document).ready(function(event) {
         var name = window.location.pathname.match(/([^\/]*)\/*$/)[1];
-        $("head").append("<link href='https://rawgit.com/SychO9/SychO-Steam/master/sycho_steam.css' rel='stylesheet' type='text/css'>");
+        $("head").append("<link href='https://rawgit.com/SychO9/SychO-Steam/master/cssteam.css' rel='stylesheet' type='text/css'>");
         // Other Than Custom CSS.
         // Level Progress Edit.
         if(name=="badges") {
