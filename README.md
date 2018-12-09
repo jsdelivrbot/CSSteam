@@ -8,7 +8,7 @@ Requires [Tampermonkey](www.tampermonkey.net) Chrome Extension
 
 2- Once The Extension Installed, Click on the link bellow
 
-https://rawgit.com/SychO9/SychO-Steam/master/cssteam.user.js
+https://cdn.jsdelivr.net/gh/SychO9/SychO-Steam@master/cssteam.user.js
 
 The Extension will automatically ask if you wanna setup the Script, Click Install.
 
